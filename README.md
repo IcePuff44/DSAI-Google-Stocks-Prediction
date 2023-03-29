@@ -14,3 +14,10 @@ Group: 7
 This repository includes the necessary code and documents to run our Mini-Project, we have used the following softwares to program our project: Jupyter Notebook and Deepnote. 
 
 This ReadMe would summarise what we have done 
+#
+### Table of Contents:
+   1. Purpose of our Project
+   2. Project Summary
+   3. Uses for the Project
+   4. How users can start on the Project
+   5. Members Contribution
