@@ -19,5 +19,8 @@ This ReadMe would summarise what we have done
    1. Purpose of our Project
    2. Project Summary
    3. Uses for the Project
-   4. How users can start on the Project
+   4. How users can get started on the Project
    5. Members Contribution
+#
+### 1. Project Purpose
+
