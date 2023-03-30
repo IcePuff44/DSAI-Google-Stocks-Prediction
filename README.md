@@ -23,4 +23,4 @@ This ReadMe would summarise what we have done
    5. Members Contribution
 #
 ### 1. Project Purpose
-
+It isn't uncommon for people of any age to start investing these days, especially with the benefits which comes with it. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, therefore we have came up with this project to increase 
