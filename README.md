@@ -38,32 +38,46 @@ This project is for **only** for research purposes, therefore it's advisable for
 ### 2. Preparation of Dataset
 For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yahoo Finance, and Reuter Headlines. In this section, we will clean and prepare the dataset to have a better understanding of our data.  
 
-Preparation of Google Stocks from Yahoo Fiance:  
+Preparation of Google Stocks from Yahoo Fiance:
 
-    1. Date Splitting: Data extracted from 01/06/2018 to 01/06/2019 
-    2. Data Cleanup: Remove all NaN Values
-                     Using Hodrick-Prescott filter to remove seasonality and trend
-    3. Detrend: Added a new column with the detrended values of the original data
-    DataFrame Name: SP
+    1. Date Splitting: Data extracted from 01/06/2018 to 01/06/2019   
+    2. Data Cleanup: Remove all NaN Values  
+                     Using Hodrick-Prescott filter to remove seasonality and trend  
+    3. Detrend: Added a new column with the detrended values of the original data  
+    DataFrame Name: SP  
     
 Preparation of Reuter Headlines:  
 
-    1. Data Splitting: Data extracted from 01/06/2018 to 01/06/2019
-    2. Data CLeanup: Remove the Description column
-                     Remove all weekends and public holidays, and NaN values
-                     Group any headlines that falls on the same day, removal of any symbols from the headlines
-    DataFrame Name: sp_copy
+    1. Data Splitting: Data extracted from 01/06/2018 to 01/06/2019  
+    2. Data Cleanup: Remove the Description column  
+                     Remove all weekends and public holidays, and NaN values  
+                     Group any headlines that falls on the same day, removal of any symbols from the headlines   
+    DataFrame Name: sp_copy  
     
 Combination of both Google Stocks and Reuter Headlines:  
+
+    1. Data Merge: Combined the 2 datasets according to their dates,
+    DataFrame Name: df_merge
     
-    1. Data Merge: Combined the datasets with the same dates.
-    2. 
 #
 ### 3. Exploration of Dataset
 In this section, we will delve deeper into the dataset and find which and how some variables would affect the seasonality and trend.  
 
-Exploration of the Google Stocks from Yahoo:  
+Exploration of the Google Stocks from Yahoo: SP  
 
     1. 
     
-Exploration of Reuter Headlines
+Exploration of Reuter Headlines: sp_copy  
+
+    1. Calculate Subjectivity, Polarity for each headline
+    2. Using Setiment Intensity Analyzer, we were able to get the Positive, Negative, Neutral, Compound values for each headline.
+    3. Analyzed the relationship between the Subjectivity, Positive, Adjective Close and Detrended Adjective Close:
+           a. Subjectivity has the stromgest relationship with Detrended Adjective Close
+           b. Positive has the strongest relationship with Adjective Close
+
+Exploration of both Google Stocks and Reuter Headlines:  
+
+    1. Analyzed the relationship between the Subjectivity, Positive, Negative, Compound, and Polarity with Adjective Close and Detrended Adjective Close:
+          a. Subjectivity has the stromgest relationship with Detrended Adjective Close
+          b. Positive has the strongest relationship with Adjective Close
+    Therefore, we'll be using the variables: Subjectivity and Positive for Machine Learning
