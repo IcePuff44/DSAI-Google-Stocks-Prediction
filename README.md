@@ -54,6 +54,13 @@ Preparation of Reuter Headlines:
                      Group any headlines that falls on the same day, removal of any symbols from the headlines
     DataFrame Name: sp_copy
     
+Combination of both Google Stocks and Reuter Headlines:  
+    
+    1. Data Merge: Combined the datasets with the same dates.
+    2. 
+#
 ### 3. Exploration of Dataset
+In this section, we will delve deeper into the dataset and find which and how some variables would affect the seasonality and trend.  
 
-                     
+Exploration of the Google Stocks from Yahoo:
+
