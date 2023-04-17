@@ -36,7 +36,32 @@ With the use of Data Science and Machine Learning, we hope to:
 This project is for **only** for research purposes, therefore it's advisable for users to not only rely on this project to predict the stock market trend.
 #
 ### 2. Preparation of Dataset
-For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yahoo Finance, and Reuter Headlines. 
+For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yahoo Finance, and Reuter Headlines. In this section, we will clean and prepare the dataset to have a better understanding of our data.  
+
+Preparation of Google Stocks from Yahoo Fiance:  
+
+    1. Date Splitting: Data extracted from 01/06/2018 to 01/06/2019 
+    2. Data Cleanup: Remove all NaN Values
+                     Using Hodrick-Prescott filter to remove seasonality and trend
+    3. Detrend: Added a new column with the detrended values of the original data
+    DataFrame Name: SP
+    
+Preparation of Reuter Headlines:  
+
+    1. Data Splitting: Data extracted from 01/06/2018 to 01/06/2019
+    2. Data CLeanup: Remove the Description column
+                     Remove all weekends and public holidays, and NaN values
+                     Group any headlines that falls on the same day, removal of any symbols from the headlines
+    DataFrame Name: sp_copy
+    
+### 3. Exploration of Dataset
+
+                     
+                     
+                     
+                     
+    
+    
 
 
 
