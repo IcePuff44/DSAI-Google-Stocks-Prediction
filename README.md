@@ -62,5 +62,8 @@ Combination of both Google Stocks and Reuter Headlines:
 ### 3. Exploration of Dataset
 In this section, we will delve deeper into the dataset and find which and how some variables would affect the seasonality and trend.  
 
-Exploration of the Google Stocks from Yahoo:
+Exploration of the Google Stocks from Yahoo:  
 
+    1. 
+    
+Exploration of Reuter Headlines
