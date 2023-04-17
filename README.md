@@ -5,9 +5,9 @@ Lab A125
 Group: 7  
 
 **Members:**
-   1. Mildred
-   2. Jace
-   3. Janice
+   1. Lee Jia Xin Mildred
+   2. Jace Seow Wen Hui
+   3. Janice Koh Swee En
 #
 ### Description:
 
@@ -57,13 +57,3 @@ Preparation of Reuter Headlines:
 ### 3. Exploration of Dataset
 
                      
-                     
-                     
-                     
-    
-    
-
-
-
-
-
