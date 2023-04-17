@@ -35,7 +35,10 @@ With the use of Data Science and Machine Learning, we hope to:
 
 This project is for **only** for research purposes, therefore it's advisable for users to not only rely on this project to predict the stock market trend.
 #
-### 2. Exploration of Dataset
+### 2. Preparation of Dataset
+For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yahoo Finance, and Reuter Headlines. 
+
+
 
 
 
