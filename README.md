@@ -51,14 +51,15 @@ For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yah
    2. **Data Cleanup:** Remove the Description Column and NaN values. Remove all weekends and Public Holidays. Remove all symbols from headlines
    3. **Individual headline:** Grouped any headlines that falls on the same day  
     
-    
+ 
 **Combination of both Google Stocks and Reuter Headlines:**    
    DataFrame Name: df_merge
    1. **Data Merge:** Combined the Google Stocks and Headlines according to their dates  
     
 #
 ### 3. Exploration of Dataset
-In this section, we will delve deeper into the dataset and find which and how some variables would affect the seasonality and trend.  
+In this section, we will delve deeper into the dataset and find which and how some variables would affect the seasonality and trend.
+
 
 **Exploration of the Google Stocks from Yahoo:**    
 DataFrame Name: SP  
@@ -71,8 +72,8 @@ DataFrame Name: sp_copy
 
 **Exploration of both Google Stocks and Reuter Headlines:**  
 DataFrame Name: df_merge  
-   1. Analyzed the relationship between the Subjectivity, Positive, Negative, Compound, and Polarity with Adjective Close and Detrended Adjective Close:
-   a. Subjectivity has the strongest relationship with Detrended Adjective Close
-   b. Positive has the strongest relationship with Adjective Close
+   1. Analyzed the relationship between the Subjectivity, Positive, Negative, Compound, and Polarity with Adjective Close and Detrended Adjective Close:  
+   a. Subjectivity has the strongest relationship with Detrended Adjective Close  
+   b. Positive has the strongest relationship with Adjective Close  
    Therefore, we'll be using the variables: Subjectivity and Positive for Machine Learning
 
