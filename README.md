@@ -13,15 +13,13 @@ Group: 7
 
 This repository includes the necessary code and documents to run our Mini-Project, we have used the following softwares to program our project: Jupyter Notebook and Deepnote. 
 
-This ReadMe would summarise what we have done 
 #
 ### Table of Contents:
    1. Purpose of our Project
    2. Preparation of Dataset
    3. Exploration of Dataset
    4. Machine Learning
-   5. How users can get started on the Project
-   6. Members Contribution
+   5. Members Contribution
 #
 ### 1. Project Purpose
 It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
@@ -75,5 +73,11 @@ DataFrame Name: df_merge
    1. Analyzed the relationship between the Subjectivity, Positive, Negative, Compound, and Polarity with Adjective Close and Detrended Adjective Close:  
    a. Subjectivity has the strongest relationship with Detrended Adjective Close  
    b. Positive has the strongest relationship with Adjective Close  
-   Therefore, we'll be using the variables: Subjectivity and Positive for Machine Learning
+   Therefore, we'll be using the variables: Compound for Machine Learning
+
+### 4. Machine Learning
+In this section, we have experimented with 7 machine learning algorithms to test which algorithm best fits our purposes.  
+1. Sarimax     
+   
+     1. 
 
