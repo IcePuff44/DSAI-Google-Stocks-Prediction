@@ -16,11 +16,11 @@ This repository includes the necessary code and documents to run our Mini-Projec
 #
 ### Table of Contents:
    1. [Purpose of our Project](#1-project-purpose)
-   2. [Preparation of Dataset](#2-preparation-of-data)
-   3. [Exploration of Dataset](#3-exploration-of-data)
+   2. [Preparation of Dataset](#2-preparation-of-dataset)
+   3. [Exploration of Dataset](#3-exploration-of-dataset)
    4. [Machine Learning](#4-machine-learning)
-   5. [Members Contribution](5-members-contribution)
-   6. [Reference List](6-reference-list)
+   5. [Members Contribution](#5-members-contribution)
+   6. [Reference List](#6-reference-list)
 #
 ### 1. Project Purpose
 It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
