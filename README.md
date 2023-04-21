@@ -22,7 +22,7 @@ This repository includes the necessary code and documents to run our Mini-Projec
    5. Members Contribution
    6. Reference List
 #
-### 1. [Project Purpose](#purpose-of-our-project)
+### 1. Project Purpose
 It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
 
 
