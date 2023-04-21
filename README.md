@@ -20,6 +20,7 @@ This repository includes the necessary code and documents to run our Mini-Projec
    3. Exploration of Dataset
    4. Machine Learning
    5. Members Contribution
+   6. Reference List
 #
 ### 1. Project Purpose
 It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
@@ -39,7 +40,7 @@ For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yah
 **Preparation of Google Stocks from Yahoo Fiance:**  
    DataFrame Name: SP
    1. **Date Splitting:** Data extracted from 01/06/2018 to 01/06/2019
-   2. **Data Cleanup:** Remove all NaN values. Used Hodrick-Prescott filter to remove Seasonality and Trend
+   2. **Data Cleanup:** Remove all NaN values. Used **Hodrick-Prescott** filter to remove Seasonality and Trend
    3. **Detrend:** Detrended values added to the DataFrame     
     
     
@@ -48,6 +49,8 @@ For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yah
    1. **Date Splitting:** Data extracted from 01/06/2018 to 01/06/2019
    2. **Data Cleanup:** Remove the Description Column and NaN values. Remove all weekends and Public Holidays. Remove all symbols from headlines
    3. **Individual headline:** Grouped any headlines that falls on the same day  
+   4. Calculate **Subjectivity, Polarity** for each headline
+   5. Using Sentiment Intensity Analyzer, we were able to get the Positive, Negative, Neutral, Compound values for each headline
     
  
 **Combination of both Google Stocks and Reuter Headlines:**    
@@ -59,22 +62,15 @@ For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yah
 In this section, we will delve deeper into the dataset and find which and how some variables would affect the seasonality and trend.
 
 
-**Exploration of the Google Stocks from Yahoo:**    
-DataFrame Name: SP  
-   1. 
-    
-**Exploration of Reuter Headlines:**  
-DataFrame Name: sp_copy  
-   1. Caculate Subjectivity, Polarity for each headline
-   2. Using Sentiment Intensity Analyzer, we were able to get the Positive, Negative, Neutral, Compound values for each headline
-
 **Exploration of both Google Stocks and Reuter Headlines:**  
-DataFrame Name: df_merge  
-   1. Analyzed the relationship between the Subjectivity, Positive, Negative, Compound, and Polarity with Adjective Close and Detrended Adjective Close:  
+   DataFrame Name: sp_copy
+   1. Analyzed the relationship between the Subjectivity, Positive, Negative, Compound, and Polarity with Adjective Close and Detrended Adjective Close:   
    a. Subjectivity has the strongest relationship with Detrended Adjective Close  
    b. Positive has the strongest relationship with Adjective Close  
-   Therefore, we'll be using the variables: Compound for Machine Learning
-
+   
+   
+Therefore, we'll be using the variables: Subjectivity for Machine Learning
+#
 ### 4. Machine Learning
 In this section, we have experimented with 7 machine learning algorithms to test which algorithm best fits our purposes.  
 
@@ -137,6 +133,27 @@ In this section, we have experimented with 7 machine learning algorithms to test
     2.	Plotted different components of forecast
     RMSE: 0.19
 
+#
+### 5. Members Contribution
+
+**Project:**  
+Data Preparation: Mildred, Jace and Janice  
+Data Exploration: Mildred, Jace and Janice  
+Machine Learning: Mildred and Janice  
+
+
+**Video Preparation:**  
+Slides design and content: Jace  
+Audio Recording: Mildred, Jace and Janice  
+
+#
+### 6. Reference List
+1. https://towardsdatascience.com/predicting-stock-prices-using-a-keras-lstm-model-4225457f0233
+2. https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/
+3. https://www.kaggle.com/code/ramlalnaik/sales-prediction-using-sarimax-and-prophet-methods
+4. https://365datascience.com/tutorials/python-tutorials/xgboost-lgbm/
+5. https://stackabuse.com/random-forest-algorithm-with-python-and-scikit-learn/
+6. https://analyticsindiamag.com/complete-guide-to-sarimax-in-python-for-time-series-modeling/
 
 
 
