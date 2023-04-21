@@ -65,8 +65,8 @@ In this section, we will delve deeper into the dataset and find which and how so
 **Exploration of both Google Stocks and Reuter Headlines:**  
    DataFrame Name: sp_copy
    1. Analyzed the relationship between the Subjectivity, Positive, Negative, Compound, and Polarity with Adjective Close and Detrended Adjective Close:   
-   a. Subjectivity has the strongest relationship with Detrended Adjective Close  
-   b. Positive has the strongest relationship with Adjective Close  
+       - a. Subjectivity has the strongest relationship with Detrended Adjective Close  
+       - b. Positive has the strongest relationship with Adjective Close  
    
    
 Therefore, we'll be using the variables: Subjectivity for Machine Learning
