@@ -15,7 +15,7 @@ This repository includes the necessary code and documents to run our Mini-Projec
 
 #
 ### Table of Contents:
-   1. Purpose of our Project
+   1. [Purpose of our Project](project-purpose)
    2. Preparation of Dataset
    3. Exploration of Dataset
    4. Machine Learning
