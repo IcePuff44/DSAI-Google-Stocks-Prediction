@@ -77,7 +77,66 @@ DataFrame Name: df_merge
 
 ### 4. Machine Learning
 In this section, we have experimented with 7 machine learning algorithms to test which algorithm best fits our purposes.  
-1. Sarimax     
-   
-     1. 
+
+
+**Sarimax**
+
+    1.	Defined an ARIMA model and fit it into the training set
+    2.	Plot autocorrelation of residuals to check the randomness in the dataset
+    3.	Training set -> Subjectivity variable
+    4.	Test set -> Detrended Adj close price
+    RMSE: 0.16
+
+
+
+**Random Tree Forest**
+
+    1.	Created a Random Tree Forest Object, with parameters: n_estimators = 100 and random states = 42
+    2.	Training set -> Subjectivity variable
+    3.	Test set -> Detrended Adj close price
+    RMSE: 0.25
+
+
+**Sarimax**
+
+    1.	Defined an ARIMA model and fit it into the training set
+    2.	Plot autocorrelation of residuals to check the randomness in the dataset
+    3.	Training set -> Subjectivity variable
+    4.	Test set -> Detrended Adj close price
+    RMSE: 0.16
+
+
+**XGBoost**
+
+    1.	Created an LGBM Regressor Object, with parameters: n_estimators = 100 and random states = 42
+    2.	Training set -> Subjectivity variable
+    3.	Test set -> Detrended Adj close price
+    RMSE: 0.21
+
+
+**LightGBM**
+
+    1.	Created a Dataframe with Subjectivity and Adj Close variable
+    2.	Split the input sequence into 60-time steps
+    3.	Create LSTM Model and compile using the Adam algorithm
+    4.	Training set -> Subjectivity variable
+    5.	Test set -> Adj close price
+    RMSE: 0.15
+
+
+**KNN**
+
+    1.	Used GridSearch to find the best parameters
+    2.	Created KNeighborRegressor object to predict based on the local neighbors
+    RMSE: 0.45
+
+
+**Prophet**
+
+    1.	Created a Prophet model and added predicted values: yhat into the DataFrame
+    2.	Plotted different components of forecast
+    RMSE: 0.19
+
+
+
 
