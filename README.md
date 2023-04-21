@@ -15,14 +15,14 @@ This repository includes the necessary code and documents to run our Mini-Projec
 
 #
 ### Table of Contents:
-   1. Purpose of our Project plain=1#L14
+   1. Purpose of our Project
    2. Preparation of Dataset
    3. Exploration of Dataset
    4. Machine Learning
    5. Members Contribution
    6. Reference List
 #
-### 1. Project Purpose
+### 1. [Project Purpose](purpose-of-our-project)
 It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
 
 
@@ -33,7 +33,7 @@ With the use of Data Science and Machine Learning, we hope to:
 
 This project is for **only** for research purposes, therefore it's advisable for users to not only rely on this project to predict the stock market trend.
 #
-### 2. Preparation of Dataset
+### 2. [Preparation of Dataset](preparation-of-dataset)
 For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yahoo Finance, and Reuter Headlines. In this section, we will clean and prepare the dataset to have a better understanding of our data.     
 
 
@@ -58,7 +58,7 @@ For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yah
    1. **Data Merge:** Combined the Google Stocks and Headlines according to their dates  
     
 #
-### 3. Exploration of Dataset
+### 3. [Exploration of Dataset](exploration-of-dataset)
 In this section, we will delve deeper into the dataset and find which and how some variables would affect the seasonality and trend.
 
 
@@ -71,7 +71,7 @@ In this section, we will delve deeper into the dataset and find which and how so
    
 Therefore, we'll be using the variables: Subjectivity for Machine Learning
 #
-### 4. Machine Learning
+### [4. Machine Learning](machine-learning)
 In this section, we have experimented with 7 machine learning algorithms to test which algorithm best fits our purposes.  
 
 
@@ -134,7 +134,7 @@ In this section, we have experimented with 7 machine learning algorithms to test
     RMSE: 0.19
 
 #
-### 5. Members Contribution
+### 5. [Members Contribution](machine-contributions)
 
 **Project:**  
 Data Preparation: Mildred, Jace and Janice  
@@ -147,7 +147,7 @@ Slides design and content: Jace
 Audio Recording: Mildred, Jace and Janice  
 
 #
-### 6. Reference List
+### 6. [Reference List](reference-list)
 1. https://towardsdatascience.com/predicting-stock-prices-using-a-keras-lstm-model-4225457f0233
 2. https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/
 3. https://www.kaggle.com/code/ramlalnaik/sales-prediction-using-sarimax-and-prophet-methods
