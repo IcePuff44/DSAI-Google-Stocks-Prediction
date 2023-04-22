@@ -20,38 +20,43 @@ This repository includes the necessary code and documents to run our Mini-Projec
    3. [Exploration of Dataset](#3-exploration-of-dataset)
    4. [Machine Learning](#4-machine-learning)
    5. [Conclusion](#5-conclusion)
-   6. [Extra Things Learnt (Out of Course Syllabus)](#6-extra-things-learnt-out-of-course-syllabus)
+   6. [Extra Things Learnt (Out of Course Syllabus)](#6-extra-things-learnt)
    7. [Recommendations for Enhancements](#7-recommendations-for-enhancements)
    8. [Members Contribution](#8-members-contribution)
    9. [Reference List](#9-reference-list)
 #
 ### 1. Project Purpose
-It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
+As youths in Singapore, there are 3 economic factors that are of concern in 2023. 
+1. Inflation
+2. Recession
+3. GST Increase to 9% 
 
+We can get a side income through trading to help combat these economic concerns. 
+However, there are many stocks available to trade in the market and thus we need to be able to roughly predict the closing prices for the stock.
+As such, through this project we plan to use daily headlines from Reuters, a financial news site to see if it can predict future Google stock prices with relative accuracy.
 
 With the use of Data Science and Machine Learning, we hope to: 
-   1. Achieve a better understanding of the stock market
-   2. Give a visualisation of the past year's stock market trend 
-   3. Decrease the uncertainty of trends by using machine learning
+   1. Give a visualisation of the historical stock market prices
+   2. Convert headlines of natural language to values we can use for prediction
+   3. Know how predictable Google Stocks can be using subjectivity and positive sentiment of Reuters headlines.
 
-This project is for **only** for research purposes, therefore it's advisable for users to not only rely on this project to predict the stock market trend.
 #
 ### 2. Preparation of Dataset
-For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yahoo Finance, and Reuter Headlines. In this section, we will clean and prepare the dataset to have a better understanding of our data.     
+For this Project, we have chosen to work with 2 Datasets: Historical Google Stocks from Yahoo Finance, and Reuter Headlines. In this section, we will analyse the dataset and prepare it to be used for Machine Learning.
 
 
 **Preparation of Google Stocks from Yahoo Finance:**  
    DataFrame Name: SP
-   1. **Date Splitting:** Data extracted from 01/06/2018 to 01/06/2019
-   2. **Data Cleanup:** Remove all NaN values. Used **Hodrick-Prescott** filter to remove Seasonality and Trend
-   3. **Detrend:** Detrended values added to the DataFrame     
+   1. **Set Dateframe:** Data extracted from 01/04/2018 to 01/12/2019 (DD/MM/YYYY)
+   2. **Data Cleanup:** Remove all NaN values. 
+   3. **Detrend:**  Used **Hodrick-Prescott** filter to remove Seasonality and Trend, and create new variable "ADJ_Close_Detrended"
     
     
 **Preparation of Reuter Headlines:**     
    DataFrame Name: sp_copy
-   1. **Date Splitting:** Data extracted from 01/06/2018 to 01/06/2019
+   1. **Set Dateframe:** Data extracted from 01/04/2018 to 01/12/2019 (DD/MM/YYYY)
    2. **Data Cleanup:** Remove the Description Column and NaN values. Remove all weekends and Public Holidays. Remove all symbols from headlines
-   3. **Individual headline:** Grouped any headlines that falls on the same day  
+   3. **Individual headline:** Grouped headlines that falls on the same day  
    4. Calculate **Subjectivity, Polarity** for each headline
    5. Using Sentiment Intensity Analyzer, we were able to get the Positive, Negative, Neutral, Compound values for each headline
     
@@ -59,6 +64,7 @@ For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yah
 **Combination of both Google Stocks and Reuter Headlines:**    
    DataFrame Name: df_merge
    1. **Data Merge:** Combined the Google Stocks and Headlines according to their dates  
+   2. **XLS File For ML* Created new .xls file "df_ML.csv" to be used for Machine Learning Models
     
 #
 ### 3. Exploration of Dataset
