@@ -20,9 +20,10 @@ This repository includes the necessary code and documents to run our Mini-Projec
    3. [Exploration of Dataset](#3-exploration-of-dataset)
    4. [Machine Learning](#4-machine-learning)
    5. [Conclusion](#5-conclusion)
-   6. [Recommendations for Enhancements](#6-recommendations-for-enhancements)
-   7. [Members Contribution](#7-members-contribution)
-   8. [Reference List](#8-reference-list)
+   6. [Extra Things Learnt (Out of Course Syllabus)](#6-extra-things-learnt)
+   7. [Recommendations for Enhancements](#7-recommendations-for-enhancements)
+   8. [Members Contribution](#8-members-contribution)
+   9. [Reference List](#9-reference-list)
 #
 ### 1. Project Purpose
 It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
@@ -159,7 +160,24 @@ That being said, we should take note that while forecasting future stock prices 
 Based on our observations and analysis, LSTM and Prophet are both excellent models for consideration to predict stocks. LSTM is designed to perform non-linear mapping for input and output variables; handle sequential and missing data; learn patterns and trends in the data over time for an accurate forecast. These features are all essential for stock predictions. Prophet greatly reduces overhead during data preprocessing by handling trends; breaks down time-based features into component plots; provides a built-in feature selection algorithm to get the most relevant features. Prophet is a new creation, and we see endless potential in the model for it to become one of the most oustanding Machine Learning models.
 
 #
-### 6. Recommendations for Enhancements
+### 6. Extra Things Learnt (Out of Course Syllabus)
+Our team decided to embark on a project that embodies practicality, where we can use it as a stepping stone to stretch our learning in more domains. Therefore, the selection of the application of data science in the finance industry.
+
+The main categories that we employed out-of-syllabus methods are as follows:
+   1. Datasets: Time Series and Natural Language (unstructured)
+         -> New methods of data cleaning
+         -> Requires techniques like checking for stationary data and trends; detrending; NLP encoding etc
+         -> Data normalisation
+   2. Visualisations: Different methods of visual representation that involves interactivity. i.e. Plot.ly
+   3. Feature engineering: Preparation of useful data to assist our forecast goal. Technical indicators merged with sentiment analysis.
+   4. 7 Machine Learning models.
+         -> Varying natures and advantages. Each model has to be dealt with differently, which required tons of research and hours of implementation.
+         -> 1 common characteristic of being able to work with time series data. 
+   
+The above is just a subset of the new knowledge we have put into play for our project. For in-depth details, please refer to our presentation video for our process to find out!
+
+#
+### 7. Recommendations for Enhancements
 We note that every project, including ours, has limitations. Hence, we have identified some possible ways for improvement to acquire results with higher accuracy, for the best data-driven decisions.
 
 1. Include other metrics for a more holistic approach towards stock prediction
@@ -174,7 +192,7 @@ We note that every project, including ours, has limitations. Hence, we have iden
 
 
 #
-### 7. Members Contribution
+### 8. Members Contribution
 
 **Project:**  
 Data Preparation: Mildred, Jace and Janice  
@@ -187,7 +205,7 @@ Slides design and content: Jace
 Audio Recording: Mildred, Jace and Janice  
 
 #
-### 8. Reference List
+### 9. Reference List
 1. https://towardsdatascience.com/predicting-stock-prices-using-a-keras-lstm-model-4225457f0233
 2. https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/
 3. https://www.kaggle.com/code/ramlalnaik/sales-prediction-using-sarimax-and-prophet-methods
