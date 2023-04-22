@@ -64,7 +64,7 @@ For this Project, we have chosen to work with 2 Datasets: Historical Google Stoc
 **Combination of both Google Stocks and Reuter Headlines:**    
    DataFrame Name: df_merge
    1. **Data Merge:** Combined the Google Stocks and Headlines according to their dates  
-   2. **csv File For ML** Created new .xls file "df_ML.csv" to be used for Machine Learning Models
+   2. **Dataframe for ML** Created new .csv file "df_ML.csv" to be used for Machine Learning Models
     
 #
 ### 3. Exploration of Dataset
