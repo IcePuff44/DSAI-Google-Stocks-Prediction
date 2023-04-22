@@ -77,42 +77,53 @@ Therefore, we'll be using the variables: Subjectivity for Machine Learning
 In this section, we have experimented with 7 machine learning algorithms to test which algorithm best fits our purposes.  
 
 
-**Sarimax**
+**Sarimax**  
+The Sarimax model is a conventional model based on statistics that are often used to predict the stock market. This is because stock market prices are not static and would often vary over time which Sarimax is able to predict, it is basically an improved version of Arima but with seasonality and exogenous factors.
+SARIMAX is used on data sets that have seasonal cycles
 
     1.	Defined an ARIMA model and fit it into the training set
     2.	Plot autocorrelation of residuals to check the randomness in the dataset
     3.	Training set -> Subjectivity variable
     4.	Test set -> Detrended Adj close price
-    RMSE: 0.16
+    RMSE: 0.22  
+    
+    
+
+**Random Tree Forest**  
+
+Random forest is a supervised classification machine learning algorithm that uses ensemble method. Basically, it is a random forest made up of numerous decision trees and helps to tackle the problem of overfitting in decision trees. These decision trees are randomly constructed by selecting random features from the given dataset.  
 
 
+Random forest arrives at a decision or prediction based on the maximum number of votes received from the decision trees. The outcome that it arrives at, for a maximum number of times through the numerous decision trees is considered the final outcome by the random forest.
 
-**Random Tree Forest**
 
     1.	Created a Random Tree Forest Object, with parameters: n_estimators = 100 and random states = 42
     2.	Training set -> Subjectivity variable
     3.	Test set -> Detrended Adj close price
-    RMSE: 0.25
+    RMSE: 0.18
 
 
-**LightGBM**
+**LightGBM**  
+LightGBM is a gradient boosting framework that uses tree based learning algorithms, it uses a histogram-based method to aplit the data into 'bins' and these bins are then used to iterate, calculate the gain, and split the data. 
 
     1.	Defined an ARIMA model and fit it into the training set
     2.	Plot autocorrelation of residuals to check the randomness in the dataset
     3.	Training set -> Subjectivity variable
     4.	Test set -> Detrended Adj close price
-    RMSE: 0.16
+    RMSE: 0.17
 
 
-**XGBoost**
+**XGBoost**  
+ XGBoost is short for extreme gradient boosting. It is a popular and efficient open-source method, well known for its ability to work complicated datasets by using various optimization method. It is based on decision trees and improving on other methods such as random forest and gradient boost, and it is also a supervised learning algorithm, which attempts to accurately predict a target variable by combining the estimates of a set of simpler, weaker models.
 
     1.	Created an LGBM Regressor Object, with parameters: n_estimators = 100 and random states = 42
     2.	Training set -> Subjectivity variable
     3.	Test set -> Detrended Adj close price
-    RMSE: 0.21
+    RMSE: 0.20
 
 
-**LSTM**
+**LSTM**  
+LSTM also known as Long Short Term Memory is network with loops in it, it works like a RNN (recurrent neural network) wherebyy the algorithm uses past information before conluding a decision, but unlike RNN, LSTM has the ability to store its information for a long preiod of time.
 
     1.	Created a Dataframe with Subjectivity and Adj Close variable
     2.	Split the input sequence into 60-time steps
@@ -122,14 +133,16 @@ In this section, we have experimented with 7 machine learning algorithms to test
     RMSE: 0.15
 
 
-**KNN**
+**KNN**  
+KNN, or also known as K Nearest Neighbor is a simple algorithm that stores all the available cases and classifies the new data based on a similarity calculation. It calssifies the new data points based on how its neighbors are classified.  
 
     1.	Used GridSearch to find the best parameters
     2.	Created KNeighborRegressor object to predict based on the local neighbors
-    RMSE: 0.45
+    RMSE: 0.22
 
 
-**Prophet**
+**Prophet**  
+Prophet is a algorithm for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data.
 
     1.	Created a Prophet model and added predicted values: yhat into the DataFrame
     2.	Plotted different components of forecast
