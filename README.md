@@ -78,8 +78,8 @@ In this section, we have experimented with 7 machine learning algorithms to test
 
 
 **Sarimax**  
-The Sarimax model is a conventional model based on statistics that are often used to predict the stock market. This is because stock market prices are not static and would often vary over time which Sarimax is able to predict, it is basically an improved version of Arima but with seasonality and exogenous factors.
-SARIMAX is used on data sets that have seasonal cycles
+The Sarimax model is a conventional model based on statistics that are often used to predict the stock market. This is because stock market prices are not static and would often vary over time which Sarimax is able to predict, it is basically an improved version of Arima but with seasonality and exogenous factors. Generally, 
+SARIMAX is used on data sets that have seasonal cycles.
 
     1.	Defined an ARIMA model and fit it into the training set
     2.	Plot autocorrelation of residuals to check the randomness in the dataset
