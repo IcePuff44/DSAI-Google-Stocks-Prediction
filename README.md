@@ -93,7 +93,7 @@ In this section, we have experimented with 7 machine learning algorithms to test
     RMSE: 0.25
 
 
-**Sarimax**
+**LightGBM**
 
     1.	Defined an ARIMA model and fit it into the training set
     2.	Plot autocorrelation of residuals to check the randomness in the dataset
@@ -110,7 +110,7 @@ In this section, we have experimented with 7 machine learning algorithms to test
     RMSE: 0.21
 
 
-**LightGBM**
+**LSTM**
 
     1.	Created a Dataframe with Subjectivity and Adj Close variable
     2.	Split the input sequence into 60-time steps
