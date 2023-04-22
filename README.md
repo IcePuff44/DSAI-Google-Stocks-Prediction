@@ -150,8 +150,21 @@ Prophet is a algorithm for forecasting time series data based on an additive mod
 #
 ### 5. Conclusion
 
+
 #
 ### 6. Recommendations for Enhancements
+We note that every project, including ours, has limitations. Hence, we have identified some possible ways for improvement to acquire results with higher accuracy, for the best data-driven decisions.
+
+1. Include other metrics for a more holistic approach towards stock prediction
+   -Stationary, numeric data: Market Economic Indicators (GDP, Company Financial Reports)
+   -Consider the global development (probably involves unstructured data) by incorporating aspects like political development for a wider range of considerations
+ 
+2. Use a larger dataset
+   A small dataset was in fact, one of the limitations of our project. We are unable to acquire stocks and headlines data that have aligned dates for a period longer than 2 years, as the datasets were retrieved from different sources. Besides, the stock market closes on holidays, weekends and some other special occasions, reducing the number of days we can analyse. Headlines may also not always be directly related to the chosen stock, which is a factor we cannot control but can reduce its impacts by using a larger dataset to factor in more relativity over time.
+   
+3. Hyperparameter tuning
+   This is a type of configuration that is external to the model and whose value cannot be estimated from data. The process involves selecting optimal values for the model hyperparameters, such as learning rate, regularisation strength, and number of hidden layers. It involves techniques such as grid search or Bayesian optimisation.
+
 
 #
 ### 7. Members Contribution
