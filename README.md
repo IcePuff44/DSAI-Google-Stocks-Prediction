@@ -19,8 +19,10 @@ This repository includes the necessary code and documents to run our Mini-Projec
    2. [Preparation of Dataset](#2-preparation-of-dataset)
    3. [Exploration of Dataset](#3-exploration-of-dataset)
    4. [Machine Learning](#4-machine-learning)
-   5. [Members Contribution](#5-members-contribution)
-   6. [Reference List](#6-reference-list)
+   5. [Conclusion](#5-conclusion)
+   6. [Recommendations for Enhancements](#6-recommendations-for-enhancements)
+   7. [Members Contribution](#7-members-contribution)
+   8. [Reference List](#8-reference-list)
 #
 ### 1. Project Purpose
 It isn't uncommon for people of any age to start investing these days. However, the stock market trend is unpredictable and doesn't increase every year, resulting in many investors losing hundreds or thousands of dollars. This level of volatility may seem intimidating especially for those who just started investing, which is why we came up with this project to give people a better understanding of how the stock market might work.
@@ -132,9 +134,14 @@ In this section, we have experimented with 7 machine learning algorithms to test
     1.	Created a Prophet model and added predicted values: yhat into the DataFrame
     2.	Plotted different components of forecast
     RMSE: 0.19
+#
+### 5. Conclusion
 
 #
-### 5. Members Contribution
+### 6. Recommendations for Enhancements
+
+#
+### 7. Members Contribution
 
 **Project:**  
 Data Preparation: Mildred, Jace and Janice  
@@ -147,7 +154,7 @@ Slides design and content: Jace
 Audio Recording: Mildred, Jace and Janice  
 
 #
-### 6. Reference List
+### 8. Reference List
 1. https://towardsdatascience.com/predicting-stock-prices-using-a-keras-lstm-model-4225457f0233
 2. https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/
 3. https://www.kaggle.com/code/ramlalnaik/sales-prediction-using-sarimax-and-prophet-methods
