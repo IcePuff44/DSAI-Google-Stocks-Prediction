@@ -39,7 +39,7 @@ This project is for **only** for research purposes, therefore it's advisable for
 For this Project, we have chosen to work with 2 Datasets: Google Stocks from Yahoo Finance, and Reuter Headlines. In this section, we will clean and prepare the dataset to have a better understanding of our data.     
 
 
-**Preparation of Google Stocks from Yahoo Fiance:**  
+**Preparation of Google Stocks from Yahoo Finance:**  
    DataFrame Name: SP
    1. **Date Splitting:** Data extracted from 01/06/2018 to 01/06/2019
    2. **Data Cleanup:** Remove all NaN values. Used **Hodrick-Prescott** filter to remove Seasonality and Trend
@@ -149,7 +149,14 @@ Prophet is a algorithm for forecasting time series data based on an additive mod
     RMSE: 0.19
 #
 ### 5. Conclusion
+Machine Learning can be used to predict stocks as long as we:
+   1. Identify quality predictors to work with
+   2. Conduct Feature Engineering
+   3. Handle and process time series data appropriately
 
+That being said, we should take note that while forecasting future stock prices is conducted accurately with Machine Learning, it does have its shortcomings, such as being unable to predict sudden events that may cause a spike or fall in stock prices overnight. Hence, predicting stocks is a complex process that requires a fair amount of effort for prior research.
+
+Based on our observations and analysis, LSTM and Prophet are both excellent models for consideration to predict stocks. LSTM is designed to perform non-linear mapping for input and output variables; handle sequential and missing data; learn patterns and trends in the data over time for an accurate forecast. These features are all essential for stock predictions. Prophet greatly reduces overhead during data preprocessing by handling trends; breaks down time-based features into component plots; provides a built-in feature selection algorithm to get the most relevant features. Prophet is a new creation, and we see endless potential in the model for it to become one of the most oustanding Machine Learning models.
 
 #
 ### 6. Recommendations for Enhancements
