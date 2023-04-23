@@ -180,7 +180,9 @@ The main categories that we employed out-of-syllabus methods are as follows:
    2. Visualisations: Different methods of visual representation that involves interactivity. i.e. Plot.ly
    3. Feature engineering: Preparation of useful data to assist our forecast goal. Technical indicators merged with sentiment analysis.
    4. 7 Machine Learning models.
+   
          a. Varying natures and advantages. Each model has to be dealt with differently, which required tons of research and hours of implementation.
+         
          b. 1 common characteristic of being able to work with time series data. 
    
 The above is just a subset of the new knowledge we have put into play for our project. For in-depth details, please refer to our presentation video for our process to find out!
@@ -190,7 +192,9 @@ The above is just a subset of the new knowledge we have put into play for our pr
 We note that every project, including ours, has limitations. Hence, we have identified some possible ways for improvement to acquire results with higher accuracy, for the best data-driven decisions.
 
 1. Include other metrics for a more holistic approach towards stock prediction
+
    -Stationary, numeric data: Market Economic Indicators (GDP, Company Financial Reports)
+   
    -Consider the global development (probably involves unstructured data) by incorporating aspects like political development for a wider range of considerations
  
 2. Use a larger dataset
