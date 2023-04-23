@@ -171,14 +171,14 @@ Our team decided to embark on a project that embodies practicality, where we can
 
 The main categories that we employed out-of-syllabus methods are as follows:
    1. Datasets: Time Series and Natural Language (unstructured)
-         -> New methods of data cleaning
-         -> Requires techniques like checking for stationary data and trends; detrending; NLP encoding etc
-         -> Data normalisation
+         a. New methods of data cleaning
+         b. Requires techniques like checking for stationary data and trends; detrending; NLP encoding etc
+         c. Data normalisation
    2. Visualisations: Different methods of visual representation that involves interactivity. i.e. Plot.ly
    3. Feature engineering: Preparation of useful data to assist our forecast goal. Technical indicators merged with sentiment analysis.
    4. 7 Machine Learning models.
-         -> Varying natures and advantages. Each model has to be dealt with differently, which required tons of research and hours of implementation.
-         -> 1 common characteristic of being able to work with time series data. 
+         a. Varying natures and advantages. Each model has to be dealt with differently, which required tons of research and hours of implementation.
+         b. 1 common characteristic of being able to work with time series data. 
    
 The above is just a subset of the new knowledge we have put into play for our project. For in-depth details, please refer to our presentation video for our process to find out!
 
