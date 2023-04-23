@@ -20,7 +20,7 @@ This repository includes the necessary code and documents to run our Mini-Projec
    3. [Exploration of Dataset](#3-exploration-of-dataset)
    4. [Machine Learning](#4-machine-learning)
    5. [Conclusion](#5-conclusion)
-   6. [Extra Things Learnt (Out of Course Syllabus)](#6-extra-things-learnt)
+   6. [Extra Things Learnt (Out of Course Syllabus)](#6-extra-things-learnt-out-of-course-syllabus)
    7. [Recommendations for Enhancements](#7-recommendations-for-enhancements)
    8. [Members Contribution](#8-members-contribution)
    9. [Reference List](#9-reference-list)
